@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:start_app/xoGame/PlayersModel.dart';
 import 'package:start_app/xoGame/xoGame.dart';
@@ -6,7 +5,7 @@ import 'package:start_app/xoGame/xoGame.dart';
 class LoginScreen extends StatefulWidget {
   static const String routeName = "LoginScreen";
 
-  LoginScreen({super.key});
+  const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();

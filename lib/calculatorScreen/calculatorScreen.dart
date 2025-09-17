@@ -1,11 +1,9 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:start_app/calculatorScreen/clacButton.dart';
-import 'package:start_app/calculatorScreen/buttonModel.dart';
 
 class CalculatorScreen extends StatefulWidget {
-  CalculatorScreen({super.key});
+  const CalculatorScreen({super.key});
 
   @override
   State<CalculatorScreen> createState() => _CalculatorScreenState();
